@@ -14,7 +14,7 @@ public:
         return percent / 100;
     }
 };
-double Contribution::percent = 10;
+double Contribution::percent = 11;
 
 
 
