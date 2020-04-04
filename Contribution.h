@@ -19,10 +19,10 @@ public:
             return (percent / 100) * 0.9;
         } else if (Contributor::getEndBalance() > 50000)
         {
-            return (percent / 100) * 0.9;
+            return (percent / 100) * 0.8;
         } else if (Contributor::getEndBalance() > 100000)
         {
-            return (percent / 100) * 0.8;
+            return (percent / 100) * 0.7;
         } else if (Contributor::getEndBalance() > 500000)
         {
             return (percent / 100) * 0.5;
