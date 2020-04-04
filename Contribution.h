@@ -1,6 +1,3 @@
-//
-// Created by villi on 04.04.2020.
-//
 #pragma once
 #include <string>
 using namespace std;
@@ -16,7 +13,5 @@ public:
         return percent / 100;
     }
 };
+
 double Contribution::percent = 1;
-
-
-

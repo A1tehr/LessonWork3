@@ -1,7 +1,3 @@
-//
-// Created by villi on 04.04.2020.
-//
-
 #pragma once
 
 #include "Contribution.h"
@@ -36,5 +32,3 @@ private:
         beginBalance = temp;
     }
 };
-
-
