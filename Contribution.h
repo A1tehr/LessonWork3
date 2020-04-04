@@ -3,6 +3,7 @@
 //
 #pragma once
 #include <string>
+#include "Contributor.h"
 using namespace std;
 
 class Contribution {
@@ -13,7 +14,22 @@ public:
         percent = percents;
     }
     static double getPercent(){
-        return percent / 100;
+        if(Contributor::getEndBalance() > 10000)
+        {
+            return (percent / 100) * 0.9;
+        } else if (Contributor::getEndBalance() > 50000)
+        {
+            return (percent / 100) * 0.9;
+        } else if (Contributor::getEndBalance() > 100000)
+        {
+            return (percent / 100) * 0.8;
+        } else if (Contributor::getEndBalance() > 500000)
+        {
+            return (percent / 100) * 0.5;
+        } else {
+            return percent / 100;
+        }
+
     }
 };
 double Contribution::percent = 1;
