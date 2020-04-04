@@ -3,6 +3,7 @@
 #include "Contribution.h"
 
 using namespace std;
+//Fix
 
 int main() {
     Contribution::setPercent(10);
