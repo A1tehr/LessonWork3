@@ -1,5 +1,5 @@
 //
-// Created by villi on 04.04.2020.
+// Created by NiceCODE on 04.04.2020.
 //
 #pragma once
 #include <string>
@@ -16,7 +16,7 @@ public:
         return percent / 100;
     }
 };
-double Contribution::percent = 1;
+double Contribution::percent = 2;
 
 
 
